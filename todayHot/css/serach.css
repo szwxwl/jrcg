@@ -1,0 +1,22 @@
+.hunt{max-width: 1200px;margin: 0 auto;}
+.hunt .h3{color: #828282;margin-bottom:  30px;}
+.hunt .huntlist .node{margin: 10px 0;}
+.hunt .huntlist ul{background: #fff;padding:5px 0 0 1%;font-size: 16px;}
+.hunt .huntlist ul li{overflow: hidden;border-bottom: 1px solid #ddd;}
+.hunt .huntlist ul li .hcon{float: left;width: 30%;line-height: 50px;}
+.hunt .huntlist ul li .hcon img {border-radius: 90px;vertical-align: middle;margin-right: 10px;width: 10%;}
+.hunt .huntlist ul li .hcon span{vertical-align: middle;}
+.hunt .huntlist ul li .hcon span.word{display: inline-block;text-overflow: ellipsis;width: 80%;overflow: hidden;white-space: nowrap;}
+.hunt .huntlist ul li .birth{float: right;line-height: 50px;width: 60%; text-align: right;}
+.hunt .huntlist ul li .birth span{vertical-align: middle;margin-right: 15%;color: #777777;}
+.hunt .huntlist ul li .birth .iconxiayiye{font-size: 24px;font-weight: bold;vertical-align: middle;margin: 0 5%;color: #777777;}
+
+.serach{;width: 100%;padding: 50px 0;}
+.serach form{width: 40%;margin: 0 auto;}
+.serach input{height: 55px;border-width: 2px;border-style: solid;vertical-align: middle;}
+.serach input[type=search]{ width:75%;padding-left: 10px;}
+.serach input[type=submit]{ width:25%;color: #FFFFFF;font-size: 16px;font-weight: bold;margin-left:-6px;margin-top: -1px;}	
+
+.no_retur{width: 40%;margin: 100px auto 150px auto;text-align: center;color: #777777;}	
+.no_retur h2{margin-top: 30px;margin-bottom: 10px;}
+.no_retur span{font-size: 16px;}

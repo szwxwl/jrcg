@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/top.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">今日吃瓜</h1>
+	</header>
+	<div class="mui-content">
+	    <div class="mui-input-row mui-search">
+		    <input type="search" class="mui-input-clear" placeholder="搜索节点和内容">
+		</div>
+		<p class="" style="text-align: center;margin-bottom: 20px;">为您找到100个结果</p>
+		<ul class="mui-table-view list_ul">
+			<p class="list_tit">节点</p>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg">
+		            <div class="mui-media-body">
+		              <span>微博</span>热搜榜
+		              <span class="mui-icon mui-icon-forward"></span>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg">
+		            <div class="mui-media-body">
+		            	<span>微博</span>热搜榜
+		            	<span class="mui-icon mui-icon-forward"></span>
+		            </div>
+		        </a>
+		    </li>
+		    <li class="mui-table-view-cell mui-media">
+		        <a href="javascript:;">
+		            <img class="mui-media-object mui-pull-left" src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg">
+		            <div class="mui-media-body">
+		               <span>微博</span>热搜榜
+		               <span class="mui-icon mui-icon-forward"></span>
+		            </div>
+		        </a>
+		    </li>
+		</ul>
+		<div class="list_ul">
+			<p class="list_tit">内容</p>
+			<div class="list_main">
+				<div class="maintitle">腾讯把小程序搬回浏览器？还有这些新腾讯把小程序搬回浏览器？还有这些新</div>
+				<p class="sun"><img src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg"/><span>知乎</span><span>2507653热度</span><span>2019-01-16</span>     </p>
+			</div>
+			<div class="list_main">
+				<div class="maintitle">腾讯把小程序搬回浏览器？还有这些新腾讯把小程序搬回浏览器？还有这些新</div>
+				<p class="sun"><img src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg"/><span>知乎</span><span>2507653热度</span><span>2019-01-16</span>     </p>
+			</div>
+			<div class="list_main">
+				<div class="maintitle">腾讯把小程序搬回浏览器？还有这些新腾讯把小程序搬回浏览器？还有这些新</div>
+				<p class="sun"><img src="http://img0.imgtn.bdimg.com/it/u=2865922095,1155643380&fm=214&gp=0.jpg"/><span>知乎</span><span>2507653热度</span><span>2019-01-16</span>     </p>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script>
+	function plusReady(){
+			// 设置系统状态栏背景为蓝色
+			plus.navigator.setStatusBarBackground( "#3498db" );
+			// 设置系统状态栏样式为浅色文字
+			plus.navigator.setStatusBarStyle( "UIStatusBarStyleBlackOpaque" );
+			}
+			if(window.plus){
+			plusReady();
+			}else{
+			document.addEventListener("plusready",plusReady,false);
+		}
+			
+</script>
+</html>

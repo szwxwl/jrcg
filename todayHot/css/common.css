@@ -1,0 +1,43 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+html,body{  font-family: "Microsoft YaHei";  font-size: 14px;  color:#333333;-webkit-tap-highlight-color:rgba(0,0,0,0);height: 100%;-webkit-text-size-adjust: 100% !important; text-size-adjust: 100% !important; -moz-text-size-adjust: 100% !important;background: rgba(240, 242, 245, 1); }
+a {  text-decoration: none; color:#4D555D;border: none;outline:none;}
+ol, ul, li {  list-style: none;  }
+input,textarea{outline: none;}
+input{-webkit-appearance: none;}
+textarea {-webkit-appearance: none}
+.clearfix:after{clear: both;display: block;content: "";}
+/*主题色*/
+.comfont{color: #3b99d8}/*字体颜色*/
+.fonthover:hover{color: #3b99d8}/*字体悬浮色*/
+.comBorderColor{border-color: #3b99d8 !important}/*公共边框色*/
+.combackg{background-color: #3b99d8}/*公共背景色*/
+
+/*公共头样式*/
+.hoTop {width: 100%;position: relative;box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);background: #fff;}
+.hoTop .hotcon {width: 90%;margin: 0 auto;font-size: 16px;}
+
+.hoTop a{color: #4D555D;}
+.hoTop .hoTop_L{float: left;width: 60%;}
+.hoTop .hoTop_L .logo{margin-right: 90px;    line-height: 77px;}
+.hoTop .hoTop_L .logo img{border-radius:90px;width: 50px;height: 50px ;vertical-align: middle;;}
+.hoTop .hoTop_L .logo span{}
+.hoTop .hoTop_L .toplist a{padding: 0 25px;display: inline-block;    display: inline-block;height: 75px;line-height: 75px}
+.hoTop .hoTop_L .toplist a.cur{border-bottom: 2px solid #3b99d8;color: #3b99d8;font-weight: bold;}
+
+.hoTop .hoTop_M{float: right;font-size: 28px;width: 10%;min-width: 410px;}
+.hoTop .hoTop_M span.iconfangdajing{line-height: 77px;font-size: 28px;color: #999999;cursor: pointer;}
+.hoTop .hoTop_M .comserach{display: none;line-height: 62px;}
+.hoTop .hoTop_M .comserach span{margin-right: 5%;font-size: 16px;cursor: pointer;}
+.hoTop .hoTop_M .comserach input{width: 81%;border: none;line-height: 70px;font-size: 16px;}
+.hoTop .hoTop_M .comserach button{border: none;font-size: 28px;color: #999999;background: none;line-height: 70px;}
+/*登录注册box*/
+
+/*底部样式*/
+.footer{background: #FFFFFF;border-top: 1px solid #ddd;padding: 50px 0;color: #9d9d9d;margin-top: 50px;}
+.footercon{width: 80%;margin: 0 auto;}
+.footercon a{color: #777;margin-right: 40px;}
+.footercon p{margin-top: 15px;}
+#footup{display: none;position: fixed;right: 50px;bottom: 50px;font-size: 30px;color: #777777;line-height: 45px;width: 50px;text-align: center;height: 50px;border-radius: 4px;background: rgba(153,174,188,0.5);color: #FFFFFF;}
+/*面包屑*/
+.crumb{margin: 20px 0;}

@@ -1,0 +1,32 @@
+.melon {width: 95%;margin: 0 auto;margin-top: 20px;}
+.melon .main .node{width: 49%;float: left;}
+.melon .main .node:first-child{margin-right: 2%;}
+.notitle{border-width:0 0 0 3px;border-style: solid;font-size: 16px;padding-left: 15px;margin: 20px 0;}
+.melon .main .node .nodelist a{display: inline-block;width: 10%;margin: 0 3% ;text-align: center;}
+.melon .main .node .nodelist a img{width: 100%;border-radius: 90px;}
+
+.article .artlist{width: 22%;float: left;padding: 1%;background: #FFFFFF;margin-right: 1%;}
+.article .artlist:last-child{margin-right: 0;}
+.article .artlist .arTitle{font-size: 18px;font-weight: bold;margin-bottom: 15px;}
+.article .artlist .arTitle .arTitle_L{float: left;}
+.article .artlist .arTitle .arTitle_L img{width: 25px;border-radius: 90px;vertical-align: middle;}
+.article .artlist .arTitle  p{float: right;color: #4D555D}
+.article .artcon{height: 280px;overflow-y: scroll;}
+.article .artcon .conList {overflow: hidden;display: block;line-height: 28px;font-size: 16px;    padding-right: 15px;}
+
+.article .artcon a:visited p.Listcon{opacity: 0.5;color: red;}
+.article .artcon .conList:hover{opacity: 0.8;}
+.article .artcon .conList p{float: left;}
+.article .artcon .conList p.tab{width: 6%;margin-right: 2%;text-align: center;}
+.article .artcon .conList p.Listcon{width: 70%;}
+.article .artcon .conList p.numbel{width: 20%;float: right;}
+
+.article .artBottom{margin-top: 15px;color: #4D555D;position: relative;}
+.article .artBottom p.time{float: left;}
+.article .artBottom .dot{float: right;cursor: pointer;}
+.article .artBottom .dot:hover{color: #0079FE;}
+.article .artBottom .doTip{display: none;text-align: center;line-height: 28px;top: 35px;position: absolute;right: 0;background: #FFFFFF;border: 1px solid #e5e5e5;width: 80px;border-radius: 4px;padding: 10px;}
+.article .artBottom .doTip a{display:block ;}
+.article .artBottom .doTip a:last-child{border-top: 1px solid #e5e5e5;}
+.article .artBottom .doTip .triangle{right: 5px;top: -12px; width: 0; height: 0;border-width: 0 12px 12px;border-style: solid;border-color: transparent transparent #e5e5e5;position: absolute;}
+.article .artBottom .doTip .triangle i{left: -10px;display: block;top: 2px; width: 0;height: 0;border-width: 0 10px 10px;border-style: solid;border-color: transparent transparent #fff;position: absolute;}

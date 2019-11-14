@@ -1,0 +1,12 @@
+.mui-bar{background-color:#3498db}
+/*设置为蓝色*/
+.mui-title{color:#ffffff}
+/*标题颜色为白色*/
+.mui-bar-nav{background-color: #3498db;}
+.mui-bar-nav h1{color: #FFFFFF;}
+.top_search{color: #FFFFFF;}
+.font_cur{color:  #3498db !important;font-weight: bold;}
+.mui-title .mui-icon{font-size: 18px;margin-left: 5px !important;}
+.mui-bar a {
+    color: #FFFFFF;
+}

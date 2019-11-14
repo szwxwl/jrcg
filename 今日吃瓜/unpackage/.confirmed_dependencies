@@ -1,0 +1,18 @@
+{
+	"index.html": {
+		"refer": [
+			"detials.html"
+		]
+	},
+	"detials.html": {
+		"refer": [
+			"index.html",
+			"search.html"
+		]
+	},
+	"search.html": {
+		"refer": [
+			"detials.html"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+html{background: rgb(147, 209, 150)}
+body{background:url(../img/89_Bg.jpg); background-position: 50% 0%;background-repeat: no-repeat;padding-top: 20px;}
+.main{max-width: 800px;margin: 0 auto;}
+.top{padding: 15px 20px 30px 20px;background: url(../img/89_HeaderBg.png) no-repeat center 50%;;text-align: center;color: #CDEFDD;line-height: 1.4;}
+.top h1{font-size: 34px;margin-bottom: 10px;margin-top: 37px;color: #fff;}
+
+.middle {background: #e7f4e9;box-shadow: 0 2px 5px 1px rgba(124,124,124,.2);}
+.middle .middle01{padding-left: 8%;padding-top: 20px;padding-bottom: 15px;}
+.middle .middle01 .title{color: #264F39;font-size: 16px;margin-bottom: 6px;}
+.middle .middle01 .title span{color: red;}
+.middle .title01{color: #666;}
+.middle .middle01:hover{background: #e3efe4;}
+.middle .middle01 .fileinput{text-align: center;position: relative;cursor: pointer; max-width: 100%; width: 150px; height: 150px; padding: 10px 0;margin-top: 6px;margin-right: 1%;background: #fff;border: 1px dashed #d3d3d3;overflow: hidden;box-sizing: border-box;color: #999;}
+.middle .middle01 .fileinput img{margin-top: 20px;margin-bottom: 20px;}
+.middle .middle01 textarea{width: 85%;    resize: none;padding: 5px;border-color: #dddddd;height: 116px;}
+.middle .middle01 .fileinput input{position: absolute;top: 0;width: 150px;height: 150px;left: 0;opacity: 0;}
+.middle .middle01 .telinput{width: 85%;border:1px solid #dddddd;height: 18px;margin-top: 7px;    padding: 5px}
+.middle .bottomtext{color: #666;margin-left: 8%;padding-bottom: 40px;}
+.middle .submit{cursor: pointer;border-radius: 2px;width: auto;height: 30px;padding: 7px 20px; color: #FFFFFF;background: #069343;border: none;margin-bottom: 30px;}
+.middle .middle01 .tips{color: red;display: none;}
+.success{text-align: center;padding-top: 30px;padding-bottom: 50px;display: none;}
+.success .tj{color: #264F39;font-size: 20px;margin: 20px 0 25px 0;}
+.success .fk{color: #666666;margin-bottom: 70px;}
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+	.main{max-width: 100%;}
+	body{padding-top: 0;}
+}

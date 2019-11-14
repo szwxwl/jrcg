@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>今日吃瓜</title>
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/details.css"/>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/comm.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+				<div class="hoTop ">
+			<div class="hotcon clearfix">
+				<div class="hoTop_L">
+					<a href="" class="logo">
+						<img src="https://tophub.today/assets/images/logo.png"/>
+						<span>今日吃瓜</span>
+					</a>
+					<span class="toplist">
+						<a href="index.html" class="cur">首页<i></i></a>
+						<a href="">综合</a>
+						<a href="">订阅</a>
+						<a href="">科技</a>
+						<a href="">娱乐</a>
+						<a href="">购物</a>
+						<a href="">社区</a>
+					</span>
+				</div>
+				<div class="hoTop_M">
+					<span id="loupe" class="iconfont iconfangdajing fonthover"></span>
+					<form action="" class="comserach">
+						<span class="iconfont iconguanbi" id="close"></span>
+						<input type="search"  name=""  placeholder="搜索节点 " />
+						<button type="submit" class="iconfont iconfangdajing"></button>
+					</form>
+				</div>
+				<div class="hoTop_R">	
+				</div>
+			</div>
+		</div>
+		<!--头部结束-->
+		<div class="details">
+			<p class="crumb"><a href="">首页 </a>/<a href="">综合 </a>/<a href="">微博</a></p>
+			<div class="main">
+				<div class="mainTop clearfix">
+					<div class="topleft">
+						<img src="http://5b0988e595225.cdn.sohucs.com/images/20181130/fcd423b915494c6ebfc44da1cb903993.gif"/>
+						<div class="imgL">
+							<h2>微博</h2>
+							<p>热搜榜</p>
+							<a href="" class="pag">综合</a>
+						</div>
+					</div>
+					<div class="topright">
+						<p>数据</p>
+						<p>10089条</p>
+					</div>
+				</div>
+				<div class="mainMAX">
+					<div class="mantab">
+						<span>热搜榜</span>
+						<span>历史数据</span>
+						<span>相关节点</span>
+					</div>
+					<div class="tabdiv">
+						<ul style="display: block;"  class="flow-default" id="LAY_demo1">
+							<p class="place">当前热搜榜<span>更新于 7 分钟前</span></p>
+							<li>
+								<div class="hcon">
+									<span class="serial">1.</span>
+									<span class="word">腾讯把小程序搬回浏览器？还有这些新还有这些新还有这些新</span>
+								</div>
+								<div class="birth">
+									<span>2507653</span>
+									<a href="#" class="iconfont iconxiayiye"></a>
+								</div>
+								
+							</li>
+							<li>
+								<div class="hcon">
+									<span class="serial">1.</span>
+									<span class="word">腾讯把小程序搬回浏览器？还有这些新还有这些新还有这些新</span>
+								</div>
+								<div class="birth">
+									<span>2507653</span>
+									<a href="#" class="iconfont iconxiayiye"></a>
+								</div>
+							</li>
+						</ul>
+						<ul >
+							<p class="place">历史上榜数据<span>已过滤当前数据</span></p>
+							<li>
+								<div class="hcon">
+									<span class="serial">2 小时前</span>
+									<span class="word">腾讯把小程序搬回浏览器？还有这些新还有这些新还有这些新</span>
+								</div>
+								<div class="birth">
+									<span>2507653</span>
+									<a href="#" class="iconfont iconxiayiye"></a>
+								</div>
+								
+							</li>
+							<li>
+								<div class="hcon">
+									<span class="serial">2 小时前</span>
+									<span class="word">腾讯把小程序搬回浏览器？还有这些新还有这些新还有这些新</span>
+								</div>
+								<div class="birth">
+									<span>2507653</span>
+									<a href="#" class="iconfont iconxiayiye"></a>
+								</div>
+								
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<div class="hcon">
+									<img src="https://tophub.today/assets/images/media/s.weibo.com.png">
+									<span>微博 </span>
+									<span>热搜榜</span>
+								</div>
+								<div class="birth">
+									<a href="#" class="iconfont iconxiayiye"></a>
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="loading"><span>加载更多</span></div>
+			</div>
+			
+		</div>
+		
+		<div class="footer">
+			<div class="footercon">
+				<p><a href="">关于我们</a><a href="">意见反馈</a></p>
+				<p>Copyright © www.jinrichigua.com, All Rights Reserved. 各站热点聚合</p>
+			</div>
+		</div>
+		<div class="iconfont iconxiangshang" id="footup"></div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$('.mantab span:first-child').addClass('comBorderColor comfont');
+			$(".mantab span").click(function(){
+				$(this).addClass('comBorderColor comfont').siblings().removeClass('comBorderColor comfont');
+				$('.tabdiv ul').eq($(this).index()).fadeIn().siblings().hide()
+			})
+			//loading
+			$('.loading').click(function(){
+				$(this).find('span').text('正在加载').before('<i></i>');
+			})
+		})
+</script>
+	</script>
+</html>
